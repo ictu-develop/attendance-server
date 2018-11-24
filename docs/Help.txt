@@ -1,0 +1,5 @@
+Compare time:
+https://stackoverflow.com/questions/6212305/how-can-i-compare-two-time-strings-in-the-format-hhmmss
+
+Find with object in an array:
+https://stackoverflow.com/questions/34393789/mongo-find-based-on-value-in-array-of-objects

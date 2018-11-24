@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GenQToken</title>
+    <script src="md5.min.js"></script>
+</head>
+<body>
+<script>
+
+    function maketoken(n, user_id) {
+        var text = '';
+        var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+        for (var i = 0; i < n; i++)
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+        if (user_id != null)
+            return text + user_id.substring(0, 20);
+        else
+            return text
+
+    }
+
+    var token = maketoken(30, md5('DTC155D4802010020')) + maketoken(78, null)
+    document.write(token)
+    document.write('<br>'+token.length)
+    //document.write(md5Hash)
+</script>
+
+</body>
+</html>

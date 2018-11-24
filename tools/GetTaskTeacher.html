@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GetTaskTeacher</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+
+    function getJson(url) {
+        $.getJSON(url, function(data) {
+            document.write(JSON.stringify(data))
+        });
+    }
+
+    var url = 'https://api.myjson.com/bins/p0lva';
+    getJson(url);
+
+</script>
+</body>
+</html>
