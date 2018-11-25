@@ -1,0 +1,28 @@
+{
+  "status": 200,
+  "class": [
+    {
+      "class_id": "K16A.CNTT.K1.D1.N01.TH1)(Nhóm_345)",
+      "student": [
+        {
+          "student_id": "DTC17H524802010164",
+          "student_name": "Dương Thị Ngọc Anh",
+          "birthday": "12/06/1999",
+          "class": "CNTT K16A",
+          "consciously": null,
+          "drop": null,
+          "ability": null
+        },
+        {
+          "student_id": "DTC175524802010009",
+          "student_name": "Lù Tuấn Anh",
+          "birthday": "17/06/1999",
+          "class": "CNTT K16A",
+          "consciously": null,
+          "drop": null,
+          "ability": null
+        }
+      ]
+    }
+  ]
+}
