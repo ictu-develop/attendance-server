@@ -15,7 +15,7 @@ class MongoDBConnect{
             //Try select a DB
             if (this.db == null) {
                 console.log('Connecting to MongoDB')
-                this.db = await client.db('attendance_db')
+                this.db = await client.db('ictu_attendance')
             }
 
             if (this.db != null)
